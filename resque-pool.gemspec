@@ -32,9 +32,6 @@ Gem::Specification.new do |s|
   s.files         += Dir.glob("lib/**/*")
   s.files         += Dir.glob("bin/**/*")
   s.files         += Dir.glob("man/**/*")
-  s.files         += Dir.glob("features/**/*")
-  s.files         += Dir.glob("spec/**/*")
-  s.test_files    = Dir.glob("{spec,features}/**/*.{rb,yml,feature}")
   s.executables   = 'resque-pool'
   s.require_paths = ["lib"]
 end
